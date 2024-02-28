@@ -109,8 +109,8 @@ echo "sha256sum -c $SHA"
 sha256sum -c $SHA
 
 echo "# ################# SIGNING CHECKSUM ######### ######### ########"
-echo "gpg --output $SHA.asc --armor --sign --detach-sign $SHA"
-gpg --output $SHA.asc --armor --sign --detach-sign $SHA
+echo "gpg --output $SHA.asc --armor --sign --local-user $REC2 --detach-sign $SHA"
+gpg --output $SHA.asc --armor --sign --local-user $REC2 --detach-sign $SHA
 
 echo "# ################# VERIFY ######### ######### ######### ########"
 echo "gpg --verify $SHA.asc $SHA"
