@@ -27,3 +27,5 @@ ZCZC W08 150 L02 CLASSROOM/ZOOM meetings
 ZCZC W08 30 L06 References/Books/Documents/Browsing/GSGS related
 ZCZC W08 50 L24 Scripting in general
 ZCZC W08 150 L11 Assignment #08
+ZCZC W09 50 L24 Scripting in general
+ZCZC W09 150 L11 Assignment #09
